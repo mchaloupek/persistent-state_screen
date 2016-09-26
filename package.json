@@ -1,0 +1,23 @@
+{
+  "name": "persistent-state_screen",
+  "version": "1.0.0",
+  "description": "a demo on using node npm socket.io and express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchaloupek/persistent-state_screen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchaloupek/persistent-state_screen/issues"
+  },
+  "homepage": "https://github.com/mchaloupek/persistent-state_screen#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
