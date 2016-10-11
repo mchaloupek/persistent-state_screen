@@ -4,6 +4,7 @@ socket.on('connect', function(data){ // when connected do something
   console.log("connected to server" + socket.id); // log out our id
 })
 
+// $('#react1').click(function(e)
 $('body').click(function(e){ // on click, do something
 
   console.log(e);
