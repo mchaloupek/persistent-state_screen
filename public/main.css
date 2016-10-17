@@ -1,15 +1,73 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.contained{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
+
+.typeStyles{
+  color: grey;
+
 }
 
 #react1{
   font-family: 'Didact Gothic', sans-serif;
-  font-size: 20px;
+  font-size: 60px;
   font-weight: lighter;
-  position: absolute;
-  left: 60px;
-  top: 30px;
+  padding-left: 50px;
+}
+
+#react2{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-left: 50px;
+
+}
+
+#react3{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-left: 50px;
+
+}
+
+#react4{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-left: 50px;
+
+}
+
+#react5{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-left: 50px;
+
+}
+
+#react6{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-left: 50px;
 
 }
