@@ -21,26 +21,40 @@ $('#react1').click(function(e){ // on click, do something
   //
   // }
 
-  socket.emit('confusedList') // send out a message of addRectangle to the server, it will handle the details (party planning) !
+  socket.emit('confusedList') 
 })
 
-$('#react2').click(function(e){ // on click, do something
+$('#react2').click(function(e){
 
   console.log(e);
 
-  socket.emit('disbeliefList') // send out a message of addRectangle to the server, it will handle the details (party planning) !
+  socket.emit('disbeliefList')
 })
 
-$('#react3').click(function(e){ // on click, do something
+$('#react3').click(function(e){
 
   console.log(e);
 
-  socket.emit('insecurityList') // send out a message of addRectangle to the server, it will handle the details (party planning) !
+  socket.emit('insecurityList')
 })
 
-$('#react4').click(function(e){ // on click, do something
+$('#react4').click(function(e){
 
   console.log(e);
 
-  socket.emit('longingList') // send out a message of addRectangle to the server, it will handle the details (party planning) !
+  socket.emit('longingList')
+})
+
+$('#react5').click(function(e){
+
+  console.log(e);
+
+  socket.emit('angerList')
+})
+
+$('#react6').click(function(e){
+
+  console.log(e);
+
+  socket.emit('sadnessList')
 })

@@ -62,8 +62,40 @@ socket.on('longingReaction', function(data){ // if we see a projectionRectangle 
   console.log(data);
 
     $('<div>How can I visit this place?</div>').css({
-      'top': Math.random,
-      'left': Math.random,
+      'top': ,
+      'left': ,
+      'color': 'red',
+      'font-family': 'Didact Gothic',
+      'font-size': '15px'
+
+
+    }).appendTo('body')
+
+})
+
+socket.on('angerReaction', function(data){ // if we see a projectionRectangle message then do some stuff
+
+  console.log(data);
+
+    $('<div>Who would cause this destruction?</div>').css({
+      'top': ,
+      'left': ,
+      'color': 'red',
+      'font-family': 'Didact Gothic',
+      'font-size': '15px'
+
+
+    }).appendTo('body')
+
+})
+
+socket.on('sadnessReaction', function(data){ // if we see a projectionRectangle message then do some stuff
+
+  console.log(data);
+
+    $('<div>the beauty is leaving...</div>').css({
+      'top': ,
+      'left': ,
       'color': 'red',
       'font-family': 'Didact Gothic',
       'font-size': '15px'

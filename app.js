@@ -24,23 +24,37 @@ io.on('connection', function(socket){ // if socket.io sees a new connection, do 
 
   })
 
-  socket.on('disbeliefList', function(data){ // look for any messages with the 'addRectangle'
-    console.log("disbeliefList" + data); // log out the 'data' in this case you get true, but you could use this to get any arbitrary data you want, think position color, etc
-    io.emit('disbeliefReaction', data) // sends out a message to the projection to add a rectangle to the screen
+  socket.on('disbeliefList', function(data){
+    console.log("disbeliefList" + data);
+    io.emit('disbeliefReaction', data)
 
 
   })
 
-  socket.on('insecurityList', function(data){ // look for any messages with the 'addRectangle'
-    console.log("insecurityList" + data); // log out the 'data' in this case you get true, but you could use this to get any arbitrary data you want, think position color, etc
-    io.emit('insecurityReaction', data) // sends out a message to the projection to add a rectangle to the screen
+  socket.on('insecurityList', function(data){
+    console.log("insecurityList" + data);
+    io.emit('insecurityReaction', data)
 
 
   })
 
-  socket.on('longingList', function(data){ // look for any messages with the 'addRectangle'
-    console.log("longingList" + data); // log out the 'data' in this case you get true, but you could use this to get any arbitrary data you want, think position color, etc
-    io.emit('longingReaction', data) // sends out a message to the projection to add a rectangle to the screen
+  socket.on('longingList', function(data){
+    console.log("longingList" + data);
+    io.emit('longingReaction', data)
+
+
+  })
+
+  socket.on('angerList', function(data){
+    console.log("angerList" + data);
+    io.emit('angerReaction', data) ]
+
+
+  })
+
+  socket.on('sadnessList', function(data){
+    console.log("sadnessList" + data);
+    io.emit('sadnessReaction', data) ]
 
 
   })
