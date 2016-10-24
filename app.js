@@ -47,14 +47,14 @@ io.on('connection', function(socket){ // if socket.io sees a new connection, do 
 
   socket.on('angerList', function(data){
     console.log("angerList" + data);
-    io.emit('angerReaction', data) ]
+    io.emit('angerReaction', data)
 
 
   })
 
   socket.on('sadnessList', function(data){
     console.log("sadnessList" + data);
-    io.emit('sadnessReaction', data) ]
+    io.emit('sadnessReaction', data)
 
 
   })

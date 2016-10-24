@@ -1,11 +1,24 @@
-var socket = io.connect('http://localhost:4050') // connect to the server
+var socket = io.connect('http://150.253.89.159:4050') // connect to the server
 
 socket.on('connect', function(data){ // when connected do something
   console.log("connected to server" + socket.id); // log out our id
 })
 
+// ~~~~~~~~~~~~~~~~~~~~~~
+
+$('html, body').on('touchstart touchmove', function(e){
+     //prevent native touch activity like scrolling
+     e.preventDefault();
+});
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~
+
+
 // $('#react1').click(function(e)
-$('#react1').click(function(e){ // on click, do something
+$('#react1').on('touchstart click', function(e){ // on click, do something
+
+
 
   console.log(e);
 
@@ -21,38 +34,38 @@ $('#react1').click(function(e){ // on click, do something
   //
   // }
 
-  socket.emit('confusedList') 
+  socket.emit('confusedList')
 })
 
-$('#react2').click(function(e){
+$('#react2').on('touchstart click', function(e){
 
   console.log(e);
 
   socket.emit('disbeliefList')
 })
 
-$('#react3').click(function(e){
+$('#react3').on('touchstart click', function(e){
 
   console.log(e);
 
   socket.emit('insecurityList')
 })
 
-$('#react4').click(function(e){
+$('#react4').on('touchstart click', function(e){
 
   console.log(e);
 
   socket.emit('longingList')
 })
 
-$('#react5').click(function(e){
+$('#react5').on('touchstart click', function(e){
 
   console.log(e);
 
   socket.emit('angerList')
 })
 
-$('#react6').click(function(e){
+$('#react6').on('touchstart click', function(e){
 
   console.log(e);
 
