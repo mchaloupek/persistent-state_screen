@@ -90,7 +90,7 @@ socket.on('angerReaction', function(data){
 })
 
 socket.on('sadnessReaction', function(data){
-
+ 
   console.log(data);
 
     $('<div class="vertAnim">The beauty is fading...</div>').css({

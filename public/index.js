@@ -32,7 +32,7 @@ $('#react1').on('touchstart click', function(e){ // on click, do something
   //   'left':e.clientX,
   //
   // }
-
+  
   socket.emit('confusedList')
 })
 
