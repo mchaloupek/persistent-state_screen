@@ -6,14 +6,13 @@ socket.on('connect', function(data){ // when connected do something
 
 // ~~~~~~~~~~~~~~~~~~~~~~
 
-$('html, body').on('touchstart touchmove', function(e){
-     //prevent native touch activity like scrolling
-     e.preventDefault();
-});
+// $('html, body').on('touchstart touchmove', function(e){
+//      //prevent native touch activity like scrolling
+//      e.preventDefault();
+// });
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~
-
 
 // $('#react1').click(function(e)
 $('#react1').on('touchstart click', function(e){ // on click, do something

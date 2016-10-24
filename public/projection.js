@@ -17,10 +17,11 @@ socket.on('confusedReaction', function(data){ // if we see a projectionRectangle
 
       'color': 'rgb(200, 90, 120)',
       'font-family': 'Raleway',
-      'font-size': '10px',
+      'font-size': '20px',
       'font-weight': '500'
 
     }).appendTo('.contained1')
+
 
 })
 
@@ -32,7 +33,7 @@ socket.on('disbeliefReaction', function(data){ // if we see a projectionRectangl
 
       'color': 'rgb(200, 90, 120)',
       'font-family': 'Raleway',
-      'font-size': '25px',
+      'font-size': '22px',
       'font-weight': '500'
 
 
@@ -48,7 +49,7 @@ socket.on('insecurityReaction', function(data){
 
       'color': 'rgb(200, 90, 120)',
       'font-family': 'Raleway',
-      'font-size': '30px',
+      'font-size': '32px',
       'font-weight': '500'
 
 
@@ -64,7 +65,7 @@ socket.on('longingReaction', function(data){
 
       'color': 'rgb(200, 90, 120)',
       'font-family': 'Raleway',
-      'font-size': '15px',
+      'font-size': '25px',
       'font-weight': '500'
 
 
@@ -80,7 +81,7 @@ socket.on('angerReaction', function(data){
 
       'color': 'rgb(200, 90, 120)',
       'font-family': 'Raleway',
-      'font-size': '10px',
+      'font-size': '12px',
       'font-weight': '500'
 
 
@@ -92,11 +93,11 @@ socket.on('sadnessReaction', function(data){
 
   console.log(data);
 
-    $('<div class="vertAnim">The beauty is leaving...</div>').css({
+    $('<div class="vertAnim">The beauty is fading...</div>').css({
 
       'color': 'rgb(200, 90, 120)',
       'font-family': 'Raleway',
-      'font-size': '25px',
+      'font-size': '27px',
       'font-weight': '500'
 
 
