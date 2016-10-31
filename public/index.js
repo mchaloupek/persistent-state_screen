@@ -1,4 +1,4 @@
-var socket = io.connect('http://150.253.89.159:4050') // connect to the server
+var socket = io.connect('http://150.253.91.85:4050') // connect to the server
 
 socket.on('connect', function(data){ // when connected do something
   console.log("connected to server" + socket.id); // log out our id
@@ -6,10 +6,10 @@ socket.on('connect', function(data){ // when connected do something
 
 // ~~~~~~~~~~~~~~~~~~~~~~
 
-// $('html, body').on('touchstart touchmove', function(e){
-//      //prevent native touch activity like scrolling
-//      e.preventDefault();
-// });
+$('html, body').on('touchstart touchmove', function(e){
+     //prevent native touch activity like scrolling
+     e.preventDefault();
+});
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~
@@ -32,7 +32,7 @@ $('#react1').on('touchstart click', function(e){ // on click, do something
   //   'left':e.clientX,
   //
   // }
-  
+
   socket.emit('confusedList')
 })
 
