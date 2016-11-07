@@ -4,9 +4,12 @@ var app = express(); // starts express
 var server = require('http').Server( app ) //start a server instance on a port
 var io = require('socket.io')(server) // use socket.io for real time connections aka wesockets
 
-server.listen(4050, function(){ // set up a server on port 3000, do a callback when it started succesfully
+var port = process.env.PORT || 8000
 
-  console.log("server started on 4050")
+
+server.listen(port, function(){ // set up a server on port 3000, do a callback when it started succesfully
+
+  console.log("app is running on port 8000")
 
 })
 
