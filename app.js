@@ -9,7 +9,7 @@ var port = process.env.PORT || 8000
 
 server.listen(port, function(){ // set up a server on port 3000, do a callback when it started succesfully
 
-  console.log("app is running on port 8000")
+  console.log("server started on 4050")
 
 })
 
